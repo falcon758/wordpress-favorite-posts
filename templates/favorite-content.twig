@@ -1,0 +1,9 @@
+<span id="favorite-post" post-id="{{ post_id }}" fav-type="{{ exists ? 1 : 0 }}">
+    <a href="javascript:void(0)" class="switch-favorite">
+        {% if exists %}
+            <img class="star-favorite" src="{{ img_src }}favorite_on.png">
+        {% else %}
+            <img class="star-favorite" src="{{ img_src }}favorite_off.png">
+        {% endif %}
+    </a>
+</span>
