@@ -1,0 +1,1 @@
+# wordpress-favorite-posts
